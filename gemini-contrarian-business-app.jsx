@@ -200,7 +200,7 @@ const playbookData = [
     title: "Roller Skate Rentals",
     category: "Modern & Digital",
     why: "Capitalizes on social media trends and outdoor rental gaps. High appeal for experiential activities.",
-    how: ["Launch as a pop-up in popular outdoor environments.", "Use a mobile van for private events and festivals."],
+    how: ["Launch with a pop-up rental service in a popular outdoor environment like a park or beachfront promenade."],
     tags: ["Rental", "Experiential", "Trends"]
   },
   // PART 2: Tangible & "Sweaty" (20)
@@ -361,7 +361,7 @@ const playbookData = [
     title: "Bathtub Refinishing",
     category: "Tangible & Sweaty",
     why: "Perfect 'sweaty' business. Costs $600-$900 vs a $10k+ remodel. High appeal for aging housing stock.",
-    how: ["Target homeowners directly through local channels.", "Build a lead-gen site and sell excess leads to other refinishers."],
+    how: ["Target homeowners directly through local marketing channels.", "Build a lead generation website and sell the qualified leads to other refinishing companies."],
     tags: ["Home Service", "Maintenance", "High Demand"]
   }
 ];
@@ -473,9 +473,9 @@ export default function App() {
         {/* Navigation */}
         <nav className="border-b border-slate-100 sticky top-0 bg-white/80 backdrop-blur-md z-40">
           <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
-            <div className="flex items-center gap-2 font-black text-2xl tracking-tighter text-indigo-600">
+            <div className="flex items-center gap-2 font-black text-xl md:text-2xl tracking-tighter text-indigo-600">
               <Zap fill="currentColor" size={24} />
-              FOUNDER'S PLAYBOOK
+              CONTRARIAN BUSINESS START UP IDEAS
             </div>
             <div className="hidden md:flex items-center gap-8 font-bold text-sm text-slate-500">
               <a href="#guide" className="hover:text-indigo-600 transition-colors">User's Guide</a>
@@ -484,7 +484,7 @@ export default function App() {
                 onClick={() => setView('playbook')}
                 className="bg-indigo-600 text-white px-5 py-2.5 rounded-xl hover:bg-indigo-700 transition-all flex items-center gap-2 shadow-lg shadow-indigo-100"
               >
-                Go to Playbook <ArrowRight size={16} />
+                Go to Ideas <ArrowRight size={16} />
               </button>
             </div>
           </div>
@@ -494,10 +494,10 @@ export default function App() {
         <section className="max-w-6xl mx-auto px-6 pt-20 pb-24 flex flex-col items-center text-center">
           <div className="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 px-4 py-1.5 rounded-full text-sm font-bold mb-8 animate-in fade-in slide-in-from-top-4">
             <Sparkles size={16} />
-            <span>AI-Enhanced Business Strategies</span>
+            <span>AI-Enhanced Niche Strategies</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1.1] mb-8 max-w-4xl text-slate-900">
-            Trade Overthinking for <span className="text-indigo-600 underline decoration-indigo-200 underline-offset-8">Decisive Action.</span>
+            Contrarian <span className="text-indigo-600 underline decoration-indigo-200 underline-offset-8">Start Up Ideas.</span>
           </h1>
           <p className="text-xl text-slate-500 max-w-2xl mb-12 leading-relaxed">
             A curated collection of 40 real-world business ventures, now enhanced with AI brainstorming, custom roadmaps, and visual identity generation.
@@ -508,7 +508,7 @@ export default function App() {
               className="bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-2xl"
             >
               <Play size={20} fill="currentColor" />
-              Launch Playbook
+              Launch Ideas Dashboard
             </button>
             <a 
               href="#guide"
@@ -524,7 +524,7 @@ export default function App() {
         <section id="guide" className="bg-slate-50 py-24">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">How to use this Playbook</h2>
+              <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">How to use this Guide</h2>
               <p className="text-slate-500 font-medium">Three steps to move from idea to execution.</p>
             </div>
             
@@ -576,7 +576,7 @@ export default function App() {
           <div className="max-w-6xl mx-auto px-6">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
               <div>
-                <h2 className="text-4xl font-black text-slate-900 tracking-tight">Interactive Table of Contents</h2>
+                <h2 className="text-4xl font-black text-slate-900 tracking-tight">Interactive Index</h2>
                 <p className="text-slate-500 text-lg mt-2">Browse the 40 plays included in this edition.</p>
               </div>
               <button 
@@ -639,14 +639,14 @@ export default function App() {
               onClick={() => setView('playbook')}
               className="bg-white text-indigo-600 px-12 py-5 rounded-3xl font-black text-xl hover:scale-105 transition-transform shadow-2xl shadow-indigo-900/50"
             >
-              Access the Playbook
+              Access the Ideas
             </button>
             <p className="mt-8 text-indigo-100 opacity-80 font-medium">Stop searching. Start building.</p>
           </div>
         </section>
 
         <footer className="py-12 border-t border-slate-100 text-center text-slate-400 font-bold text-xs uppercase tracking-widest">
-          © 2024 The Founder's Playbook • Collaborative Entrepreneurship Tool
+          © 2024 CONTRARIAN BUSINESS START UP IDEAS • Collaborative Entrepreneurship Tool
         </footer>
       </div>
     );
@@ -731,7 +731,7 @@ export default function App() {
           <Lightbulb size={32} />
         </div>
         <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-4 uppercase italic">
-          Playbook Dashboard
+          Contrarian Dashboard
         </h1>
         <p className="text-lg text-slate-600 max-w-2xl mx-auto">
           Choose your venture and leverage the AI Assistant to plan your execution.
@@ -790,7 +790,7 @@ export default function App() {
         ))}
       </div>
 
-      {/* Detail Modal (Unchanged AI Logic) */}
+      {/* Detail Modal */}
       {selectedIdea && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-0 md:p-4">
           <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" onClick={() => setSelectedIdea(null)} />
@@ -798,7 +798,7 @@ export default function App() {
             <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-slate-100 px-6 py-4 flex items-center justify-between">
               <button onClick={() => setSelectedIdea(null)} className="flex items-center gap-2 text-indigo-600 font-bold hover:bg-indigo-50 px-3 py-2 rounded-xl transition-colors">
                 <ChevronLeft size={20} />
-                <span>Back</span>
+                <span>Back to Ideas</span>
               </button>
               <button onClick={() => setSelectedIdea(null)} className="p-2 hover:bg-slate-100 rounded-full text-slate-500">
                 <X size={24} />
@@ -888,7 +888,7 @@ export default function App() {
       )}
 
       <footer className="max-w-6xl mx-auto mt-16 pt-8 border-t border-slate-200 text-center text-slate-400 text-xs">
-        <p>© 2024 • THE FOUNDER'S PLAYBOOK • AI EDITION</p>
+        <p>© 2024 • CONTRARIAN BUSINESS START UP IDEAS • AI EDITION</p>
       </footer>
     </div>
   );
